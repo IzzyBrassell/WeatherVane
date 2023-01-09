@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" />
     <title>WeatherVane</title>
 </head>
 <body class="bg-secondary">
@@ -27,7 +27,7 @@
           <br>
           <button type="button" class="btn btn-dark btn-outline-info city-button" data-city="New York City">NYC, New York</button>
           <br>
-          <button type="button" class="btn btn-dark btn-outline-info city-button" data-city="Los Angelas">Los Angelas, California</button>
+          <button type="button" class="btn btn-dark btn-outline-info city-button" data-city="Hollywood">Los Angelas, California</button>
           <br>
           <button type="button" class="btn btn-dark btn-outline-info city-button" data-city="Denver">Denver, Colorado</button>
           <br>
@@ -37,9 +37,8 @@
         </div>
       </div>
       <div class="col-9">
-        <!-- Weather display goes here -->
         <h3 class="position-relative start-50 text-info">Weather</h3>
-        <div id="weather-display"></div>
+        <div class="d-flex flex-row" id="weather-display"></div>
       </div>
     </div>
   </div>
